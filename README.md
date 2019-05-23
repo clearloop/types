@@ -4,6 +4,13 @@ Rust types conditions, wrap `std::any::Typed`.
 
 ### Examples
 
+## ty\_cond
+``` rust
+assert_eq!(types::ty_cond(&0, &1), true);
+assert_ne!(types::ty_cond(&0, &String::default()), true);
+
+```
+
 ## Conds
 ```rust
 use types::Conds;

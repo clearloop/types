@@ -1,6 +1,6 @@
 use std::any::{Any, TypeId};
 
-pub fn ty<T: ?Sized + Any, R: ?Sized + Any>(_s: &T, _r: &R) -> bool {
+pub fn ty_cond<T: ?Sized + Any, R: ?Sized + Any>(_s: &T, _r: &R) -> bool {
     TypeId::of::<T>() == TypeId::of::<R>()
 }
 

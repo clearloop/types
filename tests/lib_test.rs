@@ -2,7 +2,8 @@ use types::Conds;
 
 #[test]
 fn test_ty() {
-    assert_ne!(types::ty(&0, &String::default()), true);
+    assert_eq!(types::ty_cond(&0, &1), true);
+    assert_ne!(types::ty_cond(&0, &String::default()), true);
 }
 
 #[test]
