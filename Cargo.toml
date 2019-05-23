@@ -3,3 +3,14 @@ name = "types"
 version = "0.1.0"
 authors = ["clearloop <udtrokia@gmail.com>"]
 edition = "2018"
+readme = "README.md"
+description = "Type condtions."
+license = "MIT"
+license-file = "./License"
+documentation = "https://rs."
+homepage = "https://github.com/clearloop/types"
+repository = "https://github.com/clearloop/types"
+categories = ["type"]
+keywords = ["type", "condition"]
+
+
