@@ -50,3 +50,29 @@ fn test_floats() {
     assert_ne!(0_i32.is_f32(), true);
     assert_ne!(0_i64.is_f64(), true);
 }
+
+#[test]
+fn test_size() {
+    // test isize
+    assert_eq!(0_isize.is_isize(), true);
+    assert_ne!(0_usize.is_isize(), true);
+
+    // test usize
+    assert_eq!(0_usize.is_usize(), true);
+    assert_ne!(0_isize.is_usize(), true);
+}
+
+#[test]
+fn test_primitve() {
+    // test str
+    assert_eq!("str".is_str(), true);
+    assert_ne!(b"str".is_str(), true);
+    
+    // test bool
+    assert_eq!(true.is_bool(), true);
+    assert_ne!("bool".is_bool(), true);
+
+    // test char
+    assert_eq!('c'.is_char(), true);
+    assert_ne!("char".is_char(), true);
+}

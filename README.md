@@ -1,4 +1,7 @@
 # types
+[![Crates.io](https://img.shields.io/crates/v/types.svg)](https://crates.io/crates/types)
+[![Crates.io](https://img.shields.io/crates/d/types.svg)](https://crates.io/crates/types)
+[![LICENSE](https://img.shields.io/crates/l/types.svg)](https://github.com/clap-rs/clap/blob/master/LICENSE-MIT)
 
 Rust types conditions, wrap `std::any::Typed`.
 

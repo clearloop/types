@@ -32,21 +32,29 @@ macro_rules! impl_tys {
 }
 
 impl_tys! (
-    // ints
+    // primitive
     (i8, is_i8),
     (i16, is_i16),
     (i32, is_i32),
     (i64, is_i64),
     (i128, is_i128),
 
-    // uints
     (u8, is_u8),
     (u16, is_u16),
     (u32, is_u32),
     (u64, is_u64),
     (u128, is_u128),
 
-    // floats
     (f32, is_f32),
     (f64, is_f64),
+
+    (isize, is_isize),
+    (usize, is_usize),
+    
+    (bool, is_bool),
+    (char, is_char),
+    (&'static str, is_str),
+
+    // alloc
+    (String, is_string),
 );

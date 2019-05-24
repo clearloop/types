@@ -1,6 +1,6 @@
 [package]
 name = "types"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["clearloop <udtrokia@gmail.com>"]
 edition = "2018"
 readme = "README.md"
@@ -11,3 +11,7 @@ homepage = "https://github.com/clearloop/types"
 repository = "https://github.com/clearloop/types"
 categories = ["development-tools"]
 keywords = ["type", "condition"]
+
+[badges]
+codecov = { repository = "clearloop/sonata" }
+travis-ci = { repository = "clearloop/sonata" }
